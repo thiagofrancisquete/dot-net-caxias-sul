@@ -48,7 +48,7 @@ Abre o arquivo: tasks.json e altere para as seguintes linhas:
   "version": "2.0.0",
   "tasks": [
     {
-      "taskName": "compile",
+      "label": "compile",
       "type": "shell",
       "command": "tsc -p tsconfig.json",
       "group": {
